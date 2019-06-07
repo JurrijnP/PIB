@@ -2,18 +2,18 @@ package main
 
 import (
     "fmt"
-	"time"
+    "time"
     "math"
     "os"
-	"os/exec"
+    "os/exec"
     "regexp"
-	"runtime"
+    "runtime"
     "strconv"
     "strings"
 
     "gobot.io/x/gobot"
     "gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/platforms/chip"
+    "gobot.io/x/gobot/platforms/chip"
 	
     "github.com/stianeikeland/go-rpio"
     
